@@ -54,7 +54,7 @@ async function getProfileInfo(index) {
     infoBackground.classList.remove("hidden")
     infoContainer = document.getElementById("info_container")
     infoContainer.classList.remove("hidden")
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = "hidden"
 
     // exit into musician's page
     infoBackground.addEventListener("click", function(e) {
